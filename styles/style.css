@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&display=swap'); 
+
+  @import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@200;400&display=swap');
+
+*{
+    padding: 0;
+    
+    box-sizing: border-box;
+    margin: 0;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    
+    
+    }
+   
+    body{ 
+      
+      
+      background-color: rgb(73, 175, 216);
+        background-repeat: no-repeat;
+        background-position: center;
+        font-size: 100%;
+        height: 100vh;
+        overflow-x: hidden;
+        font-family: 'kalnia' ;
+        
+          }
+        
+   
+      
+         
+        
+        
+        
+        
+    
+    .cabecalho{
+            
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+           justify-content: space-around;
+           
+           
+        }
+    .nav-imagem{
+            width:150px;
+            height:150px;
+            border-radius: 4rem;
+           
+         }
+        
+         .nav-menu{
+             display: flex;
+              gap: 50px;
+              padding: 3px;
+              
+            }
+            
+            .nav-itens{
+                color: rgb(17,68,177);
+                border: 2px  ;
+                border-style: none;
+                border-radius: 6px;
+                border-color: antiquewhite;
+                padding: 5px;
+                font-weight: 500;
+                transition:all 0.8s ease-in-out;
+                }
+                .nav-itens:hover{
+                    font-size: 18px;
+                    background-color: aliceblue;
+                    color: rgb(26,126,192);
+                    transition:all 0.8s ease-in-out;
+             }
+                .contentPrincipal{
+                    margin: 1rem;
+                    display: flex;
+                    align-items:center;
+                    gap: 10rem; }
+                      .imagemHome{
+                        transition:all 1s ease-in-out;
+                        width: 50%;
+                        border-radius: 2rem;}
+                        .imagemHome:hover{
+                            width: 55%;
+                            border-radius: 2rem;
+                            transition:all 1s ease-in-out; 
+             }
+                 .rodape{
+                    border-style: solid;
+                    display: flex;
+                    justify-content: center;
+                    margin-top: 3.0rem;
+                    border-style: none;
+                    align-items: center;
+                  
+                    
+             }
+                 .conteudo{
+                    color:rgb(26, 126, 192);
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+             .imagens{
+               display: flex;
+               width: 150px;
+               height: 60px;
+               border: 1px;
+              
+               border-color: aliceblue;
+               
+
+             }
+             .imageGroup{
+             
+              height: 2000px;
+                display: flex;
+                flex-wrap: wrap;
+                list-style: none;
+                gap: 20rem;
+                margin-top: 5rem;
+                justify-content: space-around; }
+               
+                  .animacao{
+                    display: flex;
+                  align-items:center;
+                  justify-content: center;
+                  
+                  
+                  }
+                  .inicio{
+                    padding-top: 10rem;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: end;
+                    background-color: rgb(17, 73, 110);
+                    height: 100vh;
+                    color: rgb(39, 98, 224);
+                    gap: 1rem;
+                    margin: 2rem;
+                    border-radius: 3rem;
+                    
+                    
+
+                     
+                      
+                  }
+                .sideRigth{
+                  display: flex;
+                  flex-direction: column;
+                  gap: 30rem;
+                }
+                .sideLeft{
+                  display: flex;
+                  flex-direction: column;
+                  gap: 30rem;
+                            }
+                .links{
+                  display: flex;
+                  flex-wrap: wrap;
+                  justify-content: space-between;
+                  gap: 10rem 10rem;
+                 margin: 1rem;
+                 
+                  
+                }
+                .itens{
+                  display: flex;
+                  flex-direction: column;
+                  width: 30%;
+                  border: 2px;
+                  border-style: none;
+                  box-shadow: 1rem;
+                  border-radius: 1rem;
+                  background-color:  rgb(17, 73, 110);
+                  padding: 1rem;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                 padding: 2rem;
+                 color: rgb(190, 185, 171);
+                
+                  
+                  
+                  
+                }
+                
+                    
+                
+
+           
+           
+
+        
